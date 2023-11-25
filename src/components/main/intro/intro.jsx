@@ -18,7 +18,7 @@ function Intro() {
             confidence!
           </p>
           <div className="flex items-center gap-9 pb-[72px]">
-            <button className="py-3 px-10 rounded-lg bg-[#D6EF0E] font-bold text-white hover:scale-95 duration-500	transition-all">
+            <button className="btn py-3 px-10 rounded-lg bg-[#D6EF0E] font-bold text-white hover:scale-95 duration-500	transition-all">
               Explore Now
             </button>
             <p className="font-bold text-white hover:cursor-pointer">
@@ -47,8 +47,12 @@ function Intro() {
           </div>
         </div>
         <div className="">
-          <img src={hero} alt="" className="rounded-3xl relative" />
-          <div className="box w-[304px] p-5 rounded-2xl absolute end-3 bottom-[-210px]">
+          <img
+            src={hero}
+            alt=""
+            className="rounded-3xl relative hover:scale-105 duration-700	transition-all hover:cursor-pointer"
+          />
+          <div className="box w-[304px] p-5 rounded-2xl absolute end-3 bottom-[-210px] hover:scale-110 duration-700	transition-all hover:cursor-pointer">
             <div className="flex items-center justify-between pb-6">
               <div className="">
                 <p className="text-[#D6EF0E] pb-2">Ends in</p>
@@ -59,7 +63,7 @@ function Intro() {
                 <p className="  font-bold text-white">0.24ETH</p>
               </div>
             </div>
-            <button className="py-3 px-10 rounded-lg border-2 border-[#D6EF0E] bg-text-tr   ansparent	 font-bold text-white hover:scale-95 duration-500	transition-all">
+            <button className="btn_card py-3 px-10 rounded-lg border-2 border-[#D6EF0E] bg-text-tr   ansparent	 font-bold text-white hover:scale-95 duration-500	transition-all">
               Place A Bid
             </button>
           </div>
