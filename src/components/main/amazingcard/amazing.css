@@ -1,0 +1,11 @@
+.box_amazing {
+  border-radius: 28px;
+  border-top: 1px solid #d6ef0e;
+  background: var(--background-background-4, #131e3a);
+}
+.btn {
+  border: 1px solid #d6ef0e;
+}
+.btn:hover {
+  box-shadow: 0 0 10px #d6ef0e;
+}

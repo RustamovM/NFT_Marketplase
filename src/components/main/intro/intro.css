@@ -1,0 +1,5 @@
+.box {
+  border-top: 1px solid #d6ef0e;
+  background: var(--background-background-4, #131e3a);
+  box-shadow: 0px 9px 50px 0px rgba(23, 36, 65, 0.04);
+}

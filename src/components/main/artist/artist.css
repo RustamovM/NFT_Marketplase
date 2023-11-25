@@ -1,0 +1,7 @@
+.artist_box {
+  width: 490px;
+  height: 625px;
+}
+.btn:hover {
+  box-shadow: 0 0 10px #d6ef0e;
+}
