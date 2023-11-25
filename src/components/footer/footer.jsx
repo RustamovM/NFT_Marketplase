@@ -13,26 +13,46 @@ function Footer() {
               the collections you love. Enjoy it!
             </p>
             <div className="flex items-center gap-3">
-              <img
-                src={fasebook}
-                alt=""
-                className="hover:cursor-pointer hover:scale-150 duration-700	transition-all"
-              />
-              <img
-                src={telegram}
-                alt=""
-                className="hover:cursor-pointer hover:scale-150 duration-700	transition-all"
-              />
-              <img
-                src={twiter}
-                alt=""
-                className="hover:cursor-pointer hover:scale-150 duration-700	transition-all"
-              />
-              <img
-                src={linkdin}
-                alt=""
-                className="hover:cursor-pointer hover:scale-150 duration-700	transition-all"
-              />
+              <a
+                href="https://www.facebook.com/?locale=ru_RU"
+                target="_blink"
+                className=""
+              >
+                <img
+                  src={fasebook}
+                  alt=""
+                  className="hover:cursor-pointer hover:scale-150 duration-700	transition-all"
+                />
+              </a>
+              <a
+                href="https://web.telegram.org/k/"
+                target="_blink"
+                className=""
+              >
+                <img
+                  src={telegram}
+                  alt=""
+                  className="hover:cursor-pointer hover:scale-150 duration-700	transition-all"
+                />
+              </a>
+              <a
+                href="https://twitter.com/?lang=ru"
+                target="_blink"
+                className=""
+              >
+                <img
+                  src={twiter}
+                  alt=""
+                  className="hover:cursor-pointer hover:scale-150 duration-700	transition-all"
+                />
+              </a>
+              <a href="https://linkedin.com/" target="_blink" className="">
+                <img
+                  src={linkdin}
+                  alt=""
+                  className="hover:cursor-pointer hover:scale-150 duration-700	transition-all"
+                />
+              </a>
             </div>
           </div>
           <div className="flex items-start gap-24">
